@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form example</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form id = "data">
+        <fieldset>
+
+            <legend>General info</legend>
+    
+            <div>
+                <label for="surname">Surname</label>
+                <input id = "surname" type = "text" name="surname" placeholder="Your surname">
+            </div>
+            
+            <div>
+                <label for="name">Name</label>
+                <input id = "name" type = "text" name="name" placeholder="Your name">
+            </div>
+            
+            <div>
+                <label for="second name">Second name</label>
+                <input id = "second name" type = "text" name="second name" placeholder="Your second name">
+            </div>
+            
+            <div>
+                <label for="email">email</label>
+                <input id = "email" type = "text" name="email" placeholder="mail@mail.com">
+            </div>
+    
+        </fieldset>
+    
+        <fieldset>
+    
+            <legend>Sex</legend>
+    
+                <input id = "male" type = "radio" name="sex" value="male">
+                <label for="male">Male</label>
+    
+                <input id = "female" type = "radio" name="sex" value="female">
+                <label for="female">Female</label>
+    
+        </fieldset>
+    
+        <fieldset>
+    
+            <legend>Hobbies</legend>
+    
+                <input id = "var1" type = "checkbox" name="hobbies" value="painting">
+                <label for="var1">Painting</label>
+    
+                <input id = "var2" type = "checkbox" name="hobbies" value="reading">
+                <label for="var2">Reading</label>
+    
+                <input id = "var3" type = "checkbox" name="hobbies" value="knitting">
+                <label for="var3">Knitting</label>
+    
+                <input id = "var4" type = "checkbox" name="hobbies" value="cooking">
+                <label for="var4">Cooking</label>
+    
+        </fieldset>
+    
+        <button type = "submit" form="data">Submit</button>
+        <button type = "reset" form="data">Reset</button>
+    </form>
+    
+
+</body>
+</html>
